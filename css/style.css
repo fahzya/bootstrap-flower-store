@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --bs-primary: #ff2a6a;
+    --bs-primary-rgb: 255, 42, 106;
+    --bs-warning: #ffd034;
+    --bs-warning-rgb: 255, 208, 52;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+body {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-brand {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.nav-link.active {
+    color: var(--bs-primary) !important;
+    font-weight: bold;
+}
